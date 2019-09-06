@@ -27,14 +27,14 @@
     <!-- side navigation -->
     <div class="row  my_row2">
       <div class="col-md-auto my_col1 justify-content-md-right">
-       <nav class="navbar navbar-expand-md " style="background-color: #000000; margin-right: -15px; margin-left:-20px; width: auto; ">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+       <nav class="navbar navbar-expand-md custom-toggler  " style="background-color: #222d32; margin-right: -15px; margin-left:-20px; width: auto; ">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="true" aria-label="Toggle navigation" >
             <span class="navbar-toggler-icon"></span>
           </button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">    
                <div class="sample"  style="color: white;">
-                  <p class="textbutton">IPD</p>  <br>
-                  <p class="textbutton">AUTO </p>
+                  <p class="textbutton" style="color: white;">IPD</p>  <br>
+                  <p class="textbutton" style="color: white;">AUTO </p>
                  
                </div> 
             </div>
@@ -64,63 +64,84 @@
            <br>
 
            <div class="row   my_row">
-             <div class="col-lg-2 mr  my_col d-block d-sm-none d-md-block" style="border: 1px solid black"  >
+             <div class="col-lg-2   my_col d-block d-sm-none d-md-block" style="border: 1px solid black"  >
          <img src="image/defect.png"  class="machinepicture">
          <h3 class="textbutton">WB#30</h3>
         </div>
         
          <div class="col-lg-4     my_col" style="border: 1px solid black;">
-         <!-- <img src="image/defect.png" class="defect"> -->
-        <h3 class="textbutton">WB#30</h3>
+          <table>
+          <h3 style="float: left; font-family: Arial, sans-serif; color: white; font-size: 1.1vw; margin-top:.5vw;  margin-right: .5vw;">Recent Defect List</h3> <br>
+          <h3 style="float: left; font-family: Arial, sans-serif; color: white; font-size: 1.1vw; margin-top:-1.5vw;  margin-right: 1vw;">____________________________________________</h3>
+         <table class = "table" style="margin-top: -1vw; margin-left: -10vw;" >
+              <table class="scrolldown" >   
+        <tbody> 
+            <tr> 
+                <td class="td">Non-Stick</td> 
+                <td class="td.2">2019-09-01 28:00:20</td>
+            </tr> 
+              
+            <tr> 
+                <td class="td.1">ERROR 404</td> 
+                <td class="td.2">2019-09-02 28:00:20</td> 
+         
+            </tr> 
+            <tr> 
+                <td class="td.1">Non-Stick</td> 
+                <td class="td.2">2019-09-03 28:00:20</td> 
+          
+            </tr>
+            <tr> 
+                <td class="td.1">ERROR 404</td> 
+                <td class="td.2">2019-09-04 28:00:20</td>
+          
+            </tr>
+            <tr> 
+               <td class="td.1">ERROR 404</td> 
+                <td class="td.2">2019-09-05 28:00:20</td>
+          
+            </tr>
+            <tr> 
+                <td class="td.1">ERROR-312</td> 
+                <td class="td.2">2019-09-06 28:00:20</td>
+          
+            </tr>
+            <tr> 
+               <td class="td.1">Non-Stick</td> 
+                <td class="td.2">2019-09-07 28:00:20</td>
+            </tr>
+            <tr> 
+                <td class="td.1">ERROR 404</td> 
+                <td class="td.2">2019-09-08 28:00:20</td>
+          
+            </tr>
+            <tr> 
+                <td class="td.1">ERROR-312</td> 
+                <td class="td.2">2019-09-09 28:00:20</td>
+          
+            </tr> 
+              <tr> 
+                <td class="td.1">Non-Stick</td> 
+                <td class="td.2">2019-09-10 28:00:20</td> 
+          
+            </tr>
+        </tbody> 
+    </table>     
+          
+ 
+     
         </div>
       
          
          <div class="col-lg-6 my_col"  style="border: 1px solid black;">
-         <!--  <img src="image/message.png" class="message"> -->
-        <h3 class="textbutton">WB#30</h3>
+         <h3 style="float: left; font-family: Arial, sans-serif; color: white; font-size: 1.1vw; margin-top:.5vw;  margin-right: .5vw;">Messages</h3> <br>
+          <h3 style="float: left; font-family: Arial, sans-serif; color: white; font-size: 1.1vw; margin-top:-1.5vw;  margin-right: 1vw;">______________________________________________________________________</h3><br>
+          <textarea rows="10" cols="75" readonly style="background-color:black; color:white; text-align:left; ">sample
+                      </textarea>
+
         </div>
    </div>
       </div> 
-
-
- 
-
-
-   
-    <!-- <div class="row justify-content-between align-items-stretch my_row">
-      <div class="col-1 my_col ">
-
-        </div>
-         <div class="col-5 justify-content-between my_col ">
-          row 2 col 2
-        </div>
-          <div class="col-5 justify-content-between my_col ">
-          row 2 col 3
-        </div>
-    </div>  
-     
-   <div class="row justify-content-between align-items-stretch my_row">
-      <div class="col-md-2 my_col ">
-          
-        </div>
-         <div class="col-4 justify-content-between my_col ">
-          row 2 col 2
-        </div>
-          <div class="col-4 justify-content-between my_col ">
-          row 2 col 3
-        </div>
-    </div>   
-
-
-  </div> -->
-
-
-
-
-
-
-
-
     <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
 
@@ -138,3 +159,5 @@
 </script>
   </body>
 </html>
+
+

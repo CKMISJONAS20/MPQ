@@ -54,25 +54,25 @@
            </div>
            <br>
            <div class="row justify-content-around align-items-stretch my_row">
-           <div class="col-lg-6 my_col" style="border: 1px solid black;">
+           <div class="col-lg-6 my_col">
            <img src="image/grap3.png" class="monitor">
            </div>
-           <div class="col-lg-6 justify-content-around my_col " style="border: 1px solid blue;" >
+           <div class="col-lg-6 justify-content-around my_col "  >
            <img src="image/graph4.png" class="monitor">
            </div> 
            </div>
            <br>
 
            <div class="row   my_row">
-             <div class="col-lg-2   my_col d-block d-sm-none d-md-block" style="border: 1px solid black"  >
-         <img src="image/defect.png"  class="machinepicture">
+             <div class="col-lg-2   my_col d-block d-sm-none d-md-block"  >
+         <img src="image/machine.png"  class="machinepicture">
          <h3 class="textbutton">WB#30</h3>
         </div>
         
-         <div class="col-lg-4     my_col" style="border: 1px solid black;">
+         <div class="col-lg-4     my_col" >
           <table>
           <h3 style="float: left; font-family: Arial, sans-serif; color: white; font-size: 1.1vw; margin-top:.5vw;  margin-right: .5vw;">Recent Defect List</h3> <br>
-          <h3 style="float: left; font-family: Arial, sans-serif; color: white; font-size: 1.1vw; margin-top:-1.5vw;  margin-right: 1vw;">____________________________________________</h3>
+          <h3 style="float: left; font-family: Arial, sans-serif; color: white; font-size: 1.1vw; margin-top:-1.5vw;  margin-right: 1vw;">______________________________________________</h3>
          <table class = "table" style="margin-top: -1vw; margin-left: -10vw;" >
               <table class="scrolldown" >   
         <tbody> 
@@ -133,10 +133,10 @@
         </div>
       
          
-         <div class="col-lg-6 my_col"  style="border: 1px solid black;">
+         <div class="col-lg-6 my_col" >
          <h3 style="float: left; font-family: Arial, sans-serif; color: white; font-size: 1.1vw; margin-top:.5vw;  margin-right: .5vw;">Messages</h3> <br>
-          <h3 style="float: left; font-family: Arial, sans-serif; color: white; font-size: 1.1vw; margin-top:-1.5vw;  margin-right: 1vw;">______________________________________________________________________</h3><br>
-          <textarea rows="10" cols="75" readonly style="background-color:black; color:white; text-align:left; ">sample
+          <h3 style="float: left; font-family: Arial, sans-serif; color: white; font-size: 1.1vw; margin-top:-1.5vw;  margin-right: 1vw;">________________________________________________________________________</h3><br>
+          <textarea rows="10" cols="81" readonly style="background-color:transparent; color:white; text-align:left; ">sample
                       </textarea>
 
         </div>

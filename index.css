@@ -1,0 +1,89 @@
+body{
+	/*select image*/
+	/*background-image: url("image/bg.jpg");*/
+	
+	/*options*/
+	background-size: auto;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+      /* The image used */
+    
+
+}
+
+.my_container{
+	/*border: 1px solid green;*/
+	height: auto;
+
+}
+.my_row{
+	/*border: 3px solid blue;*/
+	height: auto;
+}
+.my_row2{
+	/*border: 3px solid blue;*/
+	height: 100px;
+	width: auto;
+
+}
+.my_col1{
+	/*border: 3px solid black;*/
+	background-color: #000000;
+
+}
+.my_row1{
+/*	border: 3px solid blue;*/
+
+	background-color: #000000;
+	height: 60px;
+	}
+.monitor{
+	float: left;
+
+	width: 582px;
+	height: 300px;
+		
+}
+.logo{
+	float: left;
+	height: 50px;
+	padding: 5px;
+}
+.amertrontext{
+	float: left;
+	color: white;
+	padding-top: 18px;	
+	font-family: Arial, sans-serif;
+}
+h3{
+	color: white;
+	text-align: center;
+	font-weight: bold;
+}
+.textbutton{
+	color: black;
+	font-weight: bold;
+	text-align: center;
+	font-family: Arial, sans-serif;
+
+}
+.message
+{
+	width: 582px;
+	height: 200px;
+}
+
+.defect{
+	width: 422px;
+	height: 200px;
+}
+
+.machinepicture{
+	width: 160px;
+	height: 250px;
+	margin-right: auto;
+}
+
+
+
